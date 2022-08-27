@@ -128,7 +128,8 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 		try
 		{
 			TestUtil.takeScreenShot();
-		}catch (Exception e) {
+		}catch (Exception e)
+		{
 			e.printStackTrace();
 		}
 	}
